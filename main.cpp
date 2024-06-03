@@ -22,7 +22,10 @@ int main()
     int arr[] = {1, 22, 31, 14, 5};
     int size = sizeof(arr)/sizeof(arr[0]);
     sort(arr, size);
-
+    for(int i = 0;i < size; i++)
+    {
+	std::cout<<arr[i]<<std::endl;
+    }
     return 0;
 
 }
